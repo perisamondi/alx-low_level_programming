@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -9,10 +7,11 @@
  */
 int  main(void)
 {
-	int n;
-	int a;
-
-	rand(time(0));
-        n = rand() - RAND_MAX / 2;
-        
+	char lc;
+	
+	for (lc= 'a'; lc <= 'z'; lc++);
+	{
+	putchar ("lc");
+	}
         return (0);
+}
