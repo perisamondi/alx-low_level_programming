@@ -1,13 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Reutrn: Always 0
+ */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	int a;
+	for (a= 0; a< 10; a++)
+	{
+		putchar(a+ '0');
+		if (a<9)
+			putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
 	return (0);
+}
