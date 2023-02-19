@@ -1,13 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
 int main(void)
 {
+	char c;
+	
 	int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	while
+		(n< 10){
+			putchar(n+'0'); n++;
+}
+	while
+	       	(c <= 'f'){
+			putchar(c); c++;
+		}
+putchar('\n');
 	return (0);
+}
