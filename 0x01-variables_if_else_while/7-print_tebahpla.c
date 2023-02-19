@@ -1,13 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main -Entry point
+ * Return: Aways 0
+ */
 int main(void)
 {
-	int n;
+	char le;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
+	for (le ='z'; le >='a'; le--)
+		putchar(le);
+	putchar('\n');
+	 return (0);
+}
