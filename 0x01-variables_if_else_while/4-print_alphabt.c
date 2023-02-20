@@ -12,12 +12,12 @@ int main(void)
 	char la;
 
 	la = 'a'
+		;
 
 	while
-		(la = 'a');
+		(la = 'a'; la <= 'z');
 
-	if
-		((la != 'e' && la != 'q') la <= 'z');
+	if ((la != 'e' && la != 'q'));
 	{
 		putchar(la);
 		la++;
