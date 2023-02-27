@@ -4,11 +4,11 @@
  * _puts - prints a string, followed by a new line, to stdout
  * @str: string to print
  */
-void_puts(char *str)
+void _puts(char *str)
 {
-	whie(*str != '\0')
+	while(*str != '\0')
 	{
-		_putchar(*str++);
+		putchar(*str++);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
