@@ -7,11 +7,11 @@
  */
 void _puts_recursion(char *s)
 {
-	 char s = s*factorial(s-1);
-	 char *s = printf(fact(s));
-	 
-	_putchar(*s);
-	_puts_recursion(s+1);
+	if(*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s+1);
+	}
+	else
 	_putchar('\n');
-	return (0);
 }
